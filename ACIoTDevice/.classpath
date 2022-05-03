@@ -8,5 +8,15 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
 	<classpathentry kind="lib" path="libs/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="/Users/garlid/.m2/repository/com/squareup/okhttp3/okhttp/4.9.1/okhttp-4.9.1.jar" sourcepath="/Users/garlid/.m2/repository/com/squareup/okhttp3/okhttp/4.9.1/okhttp-4.9.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.squareup.okhttp3"/>
+			<attribute name="maven.artifactId" value="okhttp"/>
+			<attribute name="maven.version" value="4.9.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/garlid/Downloads/okio-1.9.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

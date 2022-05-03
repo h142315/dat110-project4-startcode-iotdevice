@@ -31,8 +31,9 @@ public class RestClient {
 		
 				
 		MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+		@SuppressWarnings("deprecation")
 		RequestBody requestBody = RequestBody.create(JSON, gson.toJson(msg));
-		
+				
 		Request req = new Request.Builder().url("http://localhost:8080" + logpath).post(requestBody).build();
 		
 		try(Response res = client.newCall(req).execute()){
